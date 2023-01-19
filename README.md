@@ -11,7 +11,7 @@ Connecting to a local Kachery server can dramatically speed up the loading of da
 You do **not** need to clone this repo. Just run:
 
 ```bash
-npx kachery-local-server serve
+npx kachery-local-server@latest serve
 # The server will start listening for requests
 # Keep this terminal open
 ```
