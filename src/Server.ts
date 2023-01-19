@@ -11,7 +11,7 @@ class Server {
     constructor(private a: {port: number, verbose: boolean}) {
         this.#expressApp = express()
         this.#expressServer = http.createServer(this.#expressApp)
-        const allowedOrigins = ['http://figurl.org', 'http://localhost:3000', 'http://localhost:3001']
+        const allowedOrigins = ['https://figurl.org', 'http://localhost:3000', 'http://localhost:3001']
         this.#expressApp.use((req: Request, resp: Response, next: NextFunction) => {
             const origin = req.get('origin')
             let allowedOrigin = allowedOrigins.includes(origin) ? origin : undefined

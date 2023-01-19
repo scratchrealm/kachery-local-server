@@ -1,6 +1,6 @@
 {
   "name": "kachery-local-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Kachery local server",
   "main": "dist/index.js",
   "bin": {
