@@ -10,6 +10,8 @@ Connecting to a local Kachery server can dramatically speed up the loading of da
 
 ```bash
 npx kachery-local-server serve
+# The server will start listening for requests
+# Keep this terminal open
 ```
 
 ## Setting up Figurl to use the local server
