@@ -1,6 +1,6 @@
 # kachery-local-server
 
-Connecting to a local Kachery server can dramatically speed up the loading of data for Figurl figures.
+Connecting to a local Kachery server can dramatically speed up the loading of large data files for Figurl figures.
 
 ## Prerequisites
 
